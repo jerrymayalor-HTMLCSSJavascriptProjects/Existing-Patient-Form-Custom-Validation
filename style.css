@@ -1,0 +1,616 @@
+#gform_save_41_footer_link{
+     display: none;
+}
+
+/* MODAL */
+#myModal {
+     display: none;
+     position: fixed;
+     z-index: 1;
+     left: 0;
+     top: 0;
+     width: 100%;
+     height: 100%;
+     overflow: auto;
+     background-color: rgba(0,0,0,0.5);
+}
+
+.modal-content {
+    /*background-color: #fefefe;*/
+    margin: 15% auto;
+    padding: 50px 30px;
+    width: 30%;
+    text-align: center;
+    font-weight:400 !important;
+}
+
+.close-btn {
+    background: #635fff !important;
+     color: #fff !important;
+     font-size: 16px;
+     border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+    padding: 5px;
+    margin: 20px auto -10px;
+    border: none;
+    width:50%;
+}
+
+.close-btn:hover{
+     text-decoration: none;
+     cursor: pointer;
+     background: #635fff !important;
+     color: #fff !important;
+}
+/* =============================================================================  */
+.default-page.full-width {
+    background: #EBFDFF;
+}
+.contact-info {
+    display: flex;
+}
+
+#input_41_640{
+    pointer-events: none;
+}
+
+ #field_41_641,
+ #field_41_524,
+ #field_41_523{
+    width: 33.3% !important;
+    /*text-align: center;*/
+    /*margin: auto !important;*/
+
+ }
+
+/* =============================================================================  */
+/*CALENDAR STYLES*/
+.ui-datepicker-header.ui-widget-header.ui-helper-clearfix.ui-corner-all {
+     background: #635fff;
+ }
+ td.ui-datepicker-unselectable.ui-state-disabled {
+      background-color: #fff;
+ }
+ .ui-datepicker td a:hover {
+     color: #fff;
+     background: #635fff;
+ }
+ a.ui-state-default {
+     font-size: 12px !important;
+     padding: 10px;
+ }
+ 
+ .ui-datepicker td a, .ui-datepicker td span {
+      line-height: 0px  !important; 
+      text-shadow: none !important; 
+ }
+ .calendar_icon img{
+     width: 80% !important;
+}
+
+/* =============================================================================  */
+  /* BUTTON STYLES */
+  .btn_appointments button{
+     background: none !important;
+     color: #635fff !important;
+     font-size: 12px;
+     border: 2px solid #635fff !important;
+     padding: 10px 20px;
+     /*font-weight: 600 !important;*/
+     box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+     width:260px;
+     border-radius: 5px;
+}
+
+.btn_appointments button:hover {
+     background: #635fff !important;
+     color: #fff !important;
+}
+
+.btn_appointments_active button{
+     background: #635fff !important;
+     color: #fff !important;
+}
+
+ /* =============================================================================  */
+ /*INPUT FIELDS*/
+ #gform_wrapper_41 input[type="text"], 
+ #gform_wrapper_41 input[type="date"]{
+      background: #fff !important;
+      width: 100% !important;
+      padding: 7px 10px !important;
+      border: none;
+      border-radius: 5px;
+      box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+      font-size: 12px;
+      font-weight: 500;
+ }
+ #gform_wrapper_41 select {
+      background: #fff !important;
+      width: 100% !important;
+      padding: 10px !important;
+      border: none;
+      border-radius: 5px;
+      box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+      font-size: 12px;
+      font-weight: 500;
+    margin-top: 8px;
+ }
+ #input_41_753{
+     margin-top: 8px !important;
+ }
+.has_state  .ginput_right {
+     margin-right: 0px !important; 
+     padding-right: 0px  !important; 
+}
+ 
+ select#input_41_526_4 {
+     padding: 9px 10px !important;
+ }
+ 
+ #gform_wrapper_41 input[type="text"]:focus, 
+ #gform_wrapper_41 input[type="date"]:focus, 
+ #gform_wrapper_41 input[type="checkbox"]:focus {
+      background: rgba(99, 95, 255, .5) !important;
+      color: #fff !important;
+      border:none !important;
+ }
+ 
+ #gform_wrapper_41 select:focus-visible {
+      background: rgba(99, 95, 255, .5) !important;
+      color: #fff !important;
+      border:none !important;
+ }
+  #input_41_758 label {
+     font-size: 13px !important;
+     font-weight: bold;
+     padding: 5px 0px 0px 5px;
+ }
+ 
+
+ /* =============================================================================  */
+  /* INPUT FILE UPLOAD */
+  #gform_wrapper_41 input[type="file"]::file-selector-button {
+     background: none !important;
+     color: #635fff !important;
+     /*box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;*/
+     border: 2px solid #635fff !important;
+     border-radius: 5px;
+     font-size:12px !important;
+     font-weight: bold !important;
+     padding: 7px 10px !important;
+}
+
+#gform_wrapper_41 input[type="file"]::file-selector-button:hover {
+     background: #635fff !important;
+     color: #fff !important;
+}
+
+ /* =============================================================================  */
+ /*STATE FIELD WIDTH*/
+ #input_41_660_4_container,
+ #input_41_670_4_container,
+ #input_41_676_4_container,
+ #input_41_677_4_container
+ {
+      width: 100% !important;
+      height:39px !important;
+ }
+ 
+ /*.state_field .has_state{*/
+ /*     margin-top:10px;*/
+ /*}*/
+ /* =============================================================================  */
+ /* DISABLE INPUT FIELD */
+ #input_41_587,
+ #input_41_623,
+ #input_41_588,
+ #input_41_589,
+ #input_41_590,
+ #input_41_591,
+ #input_41_719
+ {
+      pointer-events: none;
+      text-align:center !important;
+ }
+ /* =============================================================================  */
+ /* SUBMIT BUTTON */
+ #gform_wrapper_41 input[type="submit"]{
+     background: none !important;
+     color: #635fff !important;
+     font-size: 12px;
+     border: 2px solid #635fff !important;
+     padding: 10px 20px;
+     /*font-weight: 600 !important;*/
+     box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+     width:150px;
+     border-radius: 10px;
+     text-transform:uppercase;
+}
+
+#gform_wrapper_41 input[type="submit"]:hover {
+     background: #635fff !important;
+     color: #fff !important;
+}
+
+ /* =============================================================================  */
+ /* VERBIAGE HEADING */
+ .make-an-appointment-first-paragraph .wpb_wrapper {
+     margin-top: 20px;
+ }
+ 
+ .make-an-appointment-first-paragraph  {
+     box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+     opacity:.8;
+ }
+ 
+ .make-an-appointment-first-paragraph .wpb_wrapper span,
+ .make-an-appointment-first-paragraph .wpb_wrapper span strong,
+ .make-an-appointment-first-paragraph .wpb_wrapper ul li{
+     color:#fff !important;
+ }
+ 
+
+ /* =============================================================================  */
+  /* HIDE ELEMENTS */
+  .old-text{
+     display: none;
+}
+
+ /* =============================================================================  */
+  /* Error message */
+ 
+  .email_error_msg,
+  .age_error_msg,
+  .age_start_end_error_msg,
+  .insurance_error_msg,
+  .phone_error_msg{
+      color: red;
+      font-weight: bold !important;
+      font-size: 14px !important;
+  }
+  
+  /* ERRROR MESSAGE TEXT COLOR */
+  
+  .text_red{
+       color:red;
+       text-align: center !important;
+       font-size: 14px !important;
+  }
+
+ /* =============================================================================  */
+ /* Gravity Form Wrapper */
+ #gform_wrapper_41 form#gform_41 {
+     background: none !important;
+}
+#gform_wrapper_41 .gfield_html {
+     font-size: 14px;
+     font-weight: bold;
+     /*margin-top: 41px;*/
+     /*text-align: center;*/
+}
+
+#gform_wrapper_41{
+     margin-top: 0px !Important;
+     font-size: 12px !important;
+}
+
+#gform_wrapper_41 label.gfield_label {
+     font-size: 13px !important;
+     line-height: 20px;
+}
+
+ #gform_wrapper_41 .gsection_title{
+    font-weight:bold !important;
+    text-align: center !important;
+} 
+
+#gform_wrapper_41 .gfield_radio li label{
+    font-weight: 700 !important;
+}
+
+
+ /* =============================================================================  */
+ /* CHECKBOX AND RADIO BUTTONS */
+ #gform_wrapper_41 input[type="radio"], 
+ #gform_wrapper_41 input[type="checkbox"] {
+      height: 20px !important;
+      width: 20px !important;
+ }
+ 
+ #gform_wrapper_41 input[type="radio"],  
+ #gform_wrapper_41 input[type="checkbox"]{
+      accent-color: #635fff !important;
+ }
+ 
+ #gform_wrapper_41 .gfield_radio label, 
+ #gform_wrapper_41 #label_41_92_1, 
+ #gform_wrapper_41 #label_41_93_1,
+ #gform_wrapper_41 #label_41_54_1{
+     font-size: 12px;
+     padding-top: 7px;
+     padding-left: 10px;
+ }
+
+ /* =============================================================================  */
+ /* DROPDOWN WIDTH */
+ #gform_wrapper_41 #input_41_250,
+ #input_41_587,
+ #input_41_623,
+ #input_41_593,
+ #input_41_565,
+ #input_41_569,
+ #field_41_719 .ginput_container_number
+ {
+     max-width: 30% !important;
+     width: 30%;
+ }
+
+ #field_41_719 .ginput_container_number{
+     margin: 0 auto;
+ }
+ 
+ #input_41_673,
+ #input_41_711
+ {
+     max-width: 50% !important;
+     width: 50%;
+ }
+
+ /* =============================================================================  */
+ /* TEXT ALIGNMENT CENTER */
+ #field_41_565,
+ #field_41_673,
+ #field_41_587,
+ #field_41_623,
+ #field_41_623 .ginput_container_number,
+ #field_41_593 .ginput_container_select,
+ #input_41_587,
+ #input_41_623,
+ #field_41_569,
+ #field_41_708,
+ #field_41_709,
+ #field_41_711,
+ #field_41_714,
+ #field_41_719,
+  #field_41_719 .ginput_container_number
+ {
+     text-align: center;
+ }
+ 
+ .ginput_container_select{
+      margin: auto !important; 
+ }
+
+ /* =============================================================================  */
+ /* FORM LABELS */
+ /* #field_41_256 .gfield_label,
+ #field_41_345 .gfield_label{
+     line-height: 1.7em !important;
+ } */
+ /* =============================================================================  */
+ /* RANDOM STYLES */
+ #field_41_593 label.gfield_label {
+      padding-bottom: 15px;
+ }
+ div#gfield_description_41_729,
+ div#gfield_description_41_727 {
+     font-size: 13px;
+     font-weight: bold;
+ }
+
+ /* =============================================================================  */
+/*===== SAVE AND CONTINUE =====*/
+#gform_save_41_footer_link {
+     font-size: 14px !important;
+     font-weight: bold;
+     text-decoration: underline;
+}
+
+ /* =============================================================================  */
+/*===== SAVE AND CONTINUE =====*/
+.form_saved_message{
+     position: fixed;
+     z-index: 999;
+     left: 0;
+     top: 0;
+     width: 100% !important;
+     height: 100%;
+     overflow: auto;
+     background: rgba(0,0,0,0.7) !important;
+     box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+     font-size: 14px !important;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin: 0px !important;
+ }
+
+ #gform_41 input[name="gform_resume_email"]{
+     width: 75% !important;
+}
+
+ .form_saved_message .form_saved_message_emailform {
+      margin-top: -30px !important;
+ } 
+ 
+ #gform_wrapper_41 #gform_send_resume_link_button_41 {
+      background: #635fff !important;
+      color: #fff !important;
+      font-size: 12px;
+      border: 2px solid #635fff !important;
+      padding: 10px 20px;
+      box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+      width: 20% !important;
+      border-radius: 5px;
+      margin-bottom: 8px !important;
+}
+.form_saved_message strong{
+     font-weight: bold;
+     margin-bottom: -20px !important;
+
+}
+.form_saved_message a.resume_form_link {
+      background: rgba(99, 95, 255, 1)!important;
+      color: #fff !important;
+      font-size: 14px !important;
+      font-weight: bold;
+      padding: 10px 0px;
+      border-radius: 5px;
+      width: 15% !important;
+      margin: auto !important;
+ }
+ 
+ .form_saved_message span {
+      display: grid !important;
+      background: #EBFDFF;
+      margin: 10% auto;
+      padding: 20px;
+      border: none;
+      width: 45%;
+      border-radius: 5px;
+ }
+
+  /* =============================================================================  */
+ /* Success Message*/
+ .form_saved_message_sent{
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 100%;
+      z-index: 999;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 16px;
+      background: rgba(0,0,0,0.7) !important;
+      margin: 0px !important;
+ }
+ 
+ .form_saved_message_sent > span {
+      background: #fff;
+      padding: 30px 65px;
+      width: 40%;
+      box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+      border-radius: 5px;
+  }
+ 
+  .save_and_continue_btn,
+  .saved_message_email_btn {
+      background: #635fff !important;
+      color: #fff !important;
+      font-size: 14px;
+      border: 2px solid #635fff !important;
+      padding: 10px 50px;
+      box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+      width: 260px;
+      border-radius: 5px;
+  }
+  .saved_message_email {
+      margin-bottom: 20px;
+  }
+ /* =============================================================================  */
+
+ .gform_confirmation_wrapper {
+     position: fixed;
+     z-index: 999;
+     left: 0;
+     top: 0;
+     width: 100% !important;
+     height: 100%;
+     overflow: auto;
+     background: rgba(0,0,0,0.7) !important;
+     box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+     font-size: 14px !important;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin: 0px !important;
+}
+
+
+div#gform_confirmation_message_41 {
+     background: #fff;
+     width: 40%;
+     box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+     border-radius: 5px;
+}
+.gform_confirmation_wrapper h2 {
+     text-align: center;
+     padding: 15px 80px;
+     background: rgba(99, 95, 255, 1) !important;
+     color: #fff;
+ }
+ .gform_confirmation_wrapper .msg-content{
+     padding: 20px 30px;
+     margin-top: -70px;
+       font-weight: bold;
+    font-size: 15px;
+}
+
+.btn-news{
+     background: #635fff !important;
+     color: #fff !important;
+     font-size: 14px;
+     border: 2px solid #635fff !important;
+     padding: 10px 50px;
+     box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+     width: 260px;
+     border-radius: 5px;
+
+}
+ 
+
+ /* =============================================================================  */
+ 
+ 
+
+ /*===== Media Queries =====*/
+ 
+ /*  ===== IPAD PRO =====  */
+ @media only screen and (max-width: 1440px){
+     div#gform_confirmation_message_41 {
+          width: 50%;
+     }
+    
+ }
+ 
+ /*  ===== IPAD to MOBILE  =====  */
+ @media only screen and (max-width: 768px){
+     .btn_appointments {
+          margin-bottom: 0px;
+      }
+      /*#gform_wrapper_40 input, #gform_wrapper_40 textarea {*/
+      /*    margin-top: 10px !important;*/
+      /*}*/
+      #gform_wrapper_41 .gfield_radio label {
+          padding-top: 1px;
+      }
+      #gform_wrapper_41 input[type="file"]::file-selector-button {
+          padding: 10px 5px;
+          width:110px;
+          font-size:12px !important;
+          margin-left:0px !important;
+      }
+      
+      .wpb_text_column.wpb_content_element.vc_custom_1680546241556.make-an-appointment-first-paragraph{
+          padding: 0px 10px !important;
+      }
+      .gform_wrapper input:not([type=radio]):not([type=checkbox]):not([type=image]):not([type=file]) {
+          margin-top: 10px!important;
+      }
+     
+ }
+ 
+ /*  ===== IPONE 6 / 7 / 8 PLUS =====  */
+ @media only screen and (max-width: 413px){
+      
+ }
+ 
+ /*  ===== IPHONE =====  */
+ @media only screen and (max-width: 375px){
+      
+ }
